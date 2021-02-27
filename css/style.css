@@ -1,0 +1,420 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Marck Script', cursive;
+font-family: 'Poiret One', cursive;
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.mainmenu{
+	font-size: 16px;
+	font-weight: 400;
+}
+.mainmenu ul{
+	list-style: none;
+	text-transform: uppercase;
+	margin-top: 35px;
+	font-family: 'Poiret One', cursive;
+}
+.mainmenu ul li{
+	display: inline-block;
+	padding: 15px;
+}
+.mainmenu ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.logo{
+	padding-top: 15px;
+}
+.main-slider-area{
+	position: relative;
+	height: 720px;
+}
+.top-header-bg{
+	background-image: url(../img/slider-bg.jpg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.header-text h2{
+	background-image: url(../img/divider.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	margin-top: 60px;
+	
+}
+.header-text h2{
+	font-size: 80px;
+	color: #fff;
+	margin-bottom: 50px;
+	font-family: 'Marck Script', cursive;
+	padding-bottom: 90px;
+}
+.btn-filled{
+	position: relative;
+	padding: 10px 20px;
+	display: inline-block;
+	color: #fff;
+	font-weight: 400;
+	z-index: 1;
+	font-family: 'Lato', sans-serif;
+}
+.btn-filled::after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	z-index: -1;
+	opacity: .3;
+	background-color: red;
+}
+.white-btn::after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	z-index: -1;
+	opacity: 0.3;
+	background-color: #fff;
+}
+.header-text a {
+	text-decoration: none !important;
+}
+.discover-area{
+	position: relative;
+	height: 720px;
+	padding-top: 100px;
+}
+.section-bg{
+	background-image: url(../img/sec2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.dis-title{
+	position: relative;
+	color: red;
+	font-size: 36px;
+	font-family: 'Marck Script', cursive;
+}
+.dis-title{
+	background-image: url(../img/div2.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom:35px;
+}
+.main-section p{
+	font-size: 16px;
+	color: #000;
+	font-family: 'Poiret One', cursive;
+	padding-top: 20px;
+}
+.cook-img{
+	padding-top: 25px;
+}
+.ingredi-area{
+	position: relative;
+	height: 720px;
+}
+.right-sec{
+	background-image: url(../img/ingre-right.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	height: 600px;
+	width: 500px;
+}
+.right-sec h2{
+	text-align: center;
+	padding-top: 60px;
+	font-size: 30px;
+	color: #fff;
+	font-family: 'Marck Script', cursive;
+}
+.right-sec p{
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	font-family:'Poiret One', cursive;
+	padding-top: 40px;
+}
+.right-sec h2{
+	background-image: url(../img/ingre-div.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom:35px;
+}
+.ingre-sec-right-img{
+	text-align: center;
+	padding-top: 50px;
+}
+.left-img{
+	position: absolute;
+	top: 60px;
+	right: 60px;
+}
+.food-menu-area{
+	background-image: url(../img/menu-sec-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 1100px;
+}
+.food-menu-heading{
+	color: #fff;
+	position: relative;
+	text-align: center;
+	font-family: 'Marck Script', cursive;
+}
+.food-menu-heading{
+	background-image: url(../img/menu-sec-div.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 35px;
+	padding-top: 55px;
+}
+.single-food-item{
+	color: #fff;
+	padding: 18px;
+	border-bottom: 1px solid #934640;
+}
+.single-food-item h2{
+	font-size: 21px;
+	font-weight: 500;
+	font-family: 'Poiret One', cursive;
+}
+.single-food-item span{
+	float: right;
+}
+.single-food-item p{
+	font-family: 'Poiret One', cursive;
+	width: 100%;
+	display: block;
+}
+.single-food-item special{
+	position: relative;
+}
+.single-food-item special::before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: "SPECIAL";
+	background-color: #F03;
+}
+.btn-filled::after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	z-index: -1;
+	opacity: .3;
+	background-color: red;
+}
+.single-food-item .special{
+	position: relative;
+}
+.single-food-item .special::before{
+	position: absolute;
+	top: 2px;
+	left: 174px;
+	padding: 0px 7px;
+	background: #BC4635;
+	content: "SPECAIL";
+}
+.testimonial-area{
+	position: relative;
+	height: 650px;
+	padding-top: 120px;
+}
+.testimonial-bg{
+	background-image: url(../img/rebg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.testimonial-heading{
+	background-image: url(../img/review\ div.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	font-family: 'Marck Script', cursive;
+	padding-bottom: 35px;
+	padding-top: 20px;
+}
+.testimonial-slider{
+	padding-top: 25px;
+}
+.testimonial-slider p{
+	font-size: 25px;
+	font-family: 'Poiret One', cursive;
+}
+.test-author{
+	font-size: 40px;
+	margin-top: 40px;
+	display: block;
+	font-family: 'Marck Script', cursive;
+}
+.star-icon i{
+	padding: 15px 5px;
+	color: #FAC918;
+}
+.reservition-area{
+	position: relative;
+}
+.reservi-bg{
+	background-image: url(../img/section-bg2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.mar-top{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.img-1{
+	width: 100%;
+	height: 500px;
+}
+.img-2{
+	width: 100%;
+	height: 500px;
+}
+.reservi-heading{
+	background-image: url(../img/divider2.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	font-size: 40px;
+	color: #E02;
+	padding-bottom: 30px;
+	font-family: 'Marck Script', cursive;
+	text-align: center;
+	text-transform: capitalize;
+}
+.reservi-pera{
+	text-align: center;
+	color: #777;
+	font-size: 18px;
+	width: 420px;
+	margin: 0 auto;
+	margin-top: 30px;
+	font-family: 'Lato', sans-serif;
+}
+.from{
+	margin-top: 50px;
+	position: relative;
+	width: 100%;
+}
+#name,#email,#date,#party{
+	width: 200px;
+	display: inline-block;
+}
+.from label{
+	position: absolute;
+	color: #F03;
+	font-family: 'Marck Script', cursive;
+}
+.from input,.from select{
+	border: 1px solid #000;
+	padding: 5px 10px;
+	display: inline-block;
+	margin: 10px 10px;
+	outline: none;
+	margin-bottom: 40px;
+	font-family: 'Marck Script', cursive;
+}
+.from input:focus,.from select:focus{
+	border: 1px solid #F33;
+}
+.from label:nth-child(1) {
+    top: -17px;
+    left: 58px;
+}
+.from label:nth-child(3) {
+    top: -17px;
+    left: 283px;
+}
+.from label:nth-child(5) {
+    top: 69px;
+    left: 57px;
+}
+.from label:nth-child(7) {
+    top: 69px;
+    left: 282px;
+}
+a.btn-1 {
+	text-decoration: none !important;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 25px;
+	color: #fff;
+	background-color: #F55;
+	font-family: "focus";
+}
+.footer-section-area{
+	position: relative;
+	height: 320px;
+	color: #fff;
+	padding-top: 80px;
+}
+.footer-sec-bg{
+	position: absolute;
+	background-image: url(../img/foooter-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.footer-social-icon{
+	padding-top: 20px;
+}
+.footer-social-icon i{
+	padding: 10px;
+}
+.footer-social-icon i:hover{
+	background-color: crimson;
+	color: #fff;
+	border-radius: 50%;
+}
+.footer-left {
+	text-align: center;
+}
+.footer-right-sec{
+	text-align: center;
+}
+.footer-mid-sec{
+	text-align: center;
+}
+.footer-mid-sec p{
+	margin-top: 20px;
+}
